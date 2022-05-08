@@ -1,0 +1,31 @@
+ul {
+	list-style-type: none;
+}
+.movie-card a {
+	color: green;
+	font-size: 1.8rem;
+}
+.movie-card a:hover {
+	padding-bottom: 20px;
+	border-bottom: 1px solid green;
+}
+
+.box-containerr h3{
+	font-size: 3.4rem;
+	font-weight: bold;
+	text-align: center;
+}
+.box{
+	display: flex;
+	flex-wrap: wrap;
+}
+.movie-card{
+	flex: 1 1 25rem;
+	overflow: hidden;
+}
+.movie-card image img{
+	height: 23rem;
+}
+.movie-card img:hover{
+	transform: scale(1.1);
+}
