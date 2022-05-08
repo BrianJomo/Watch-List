@@ -1,3 +1,4 @@
+from multiprocessing import Manager
 from app import app # import the app instance.
 
 if __name__ == '__main__':
